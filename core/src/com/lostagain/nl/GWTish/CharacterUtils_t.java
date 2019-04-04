@@ -17,7 +17,7 @@ public class CharacterUtils_t {
      */
     public static final class UnicodeBlock extends Subset {
 
-        private static Map<String, UnicodeBlock> map = new HashMap<>(256);
+        private static Map<String, UnicodeBlock> map = new HashMap<String, UnicodeBlock>(256);
 
         /**
          * Creates a UnicodeBlock with the given identifier name.

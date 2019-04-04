@@ -458,7 +458,7 @@ public class InsertsPanel extends FlowPanel {
 		String IDstring = "<div id=\""+element_id+"\"></div>"; //id to look in string for. The Label will be split either side of this into two new labels with newwidget inbetween
 		IDstring="";
 		
-		ArrayList<Widget> arraycopy= new ArrayList<>(super.contents);
+		ArrayList<Widget> arraycopy= new ArrayList<Widget>(super.contents);
 
 		for (Widget widget : arraycopy) {
 
@@ -879,7 +879,7 @@ public class InsertsPanel extends FlowPanel {
 
 		String IDstring = "<div id=\""+id+"\"></div>";
 
-		ArrayList<Widget> arraycopy= new ArrayList<>(super.contents);
+		ArrayList<Widget> arraycopy= new ArrayList<Widget>(super.contents);
 
 		for (Widget widget : arraycopy) {
 
